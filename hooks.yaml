@@ -1,0 +1,6 @@
+- id: go-lint
+  name: go lint
+  files: \.go$
+  entry: go-lint.sh
+  language: script
+  description: "Runs `golint`, install it with `go get -u github.com/golang/lint/golint`."
