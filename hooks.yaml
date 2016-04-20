@@ -10,3 +10,9 @@
   entry: go-vet.sh
   language: script
   description: "Runs `go vet`, requires Golang."
+- id: go-fmt
+  name: go fmt
+  files: \.go$
+  entry: go-fmt.sh
+  language: script
+  description: "Runs `gofmt`, requires Golang."
