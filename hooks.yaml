@@ -16,3 +16,9 @@
   entry: go-fmt.sh
   language: script
   description: "Runs `gofmt`, requires Golang."
+- id: go-metalinter
+  name: Go Meta Linter
+  files: \.go$
+  entry: go-metalinter.sh
+  language: script
+  description: "Runs a bunch of Go linters, requires https://github.com/alecthomas/gometalinter."
