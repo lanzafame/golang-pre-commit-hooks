@@ -4,3 +4,9 @@
   entry: go-lint.sh
   language: script
   description: "Runs `golint`, install it with `go get -u github.com/golang/lint/golint`."
+- id: go-vet
+  name: go vet
+  files: \.go$
+  entry: go-vet.sh
+  language: script
+  description: "Runs `go vet`, requires Golang."
